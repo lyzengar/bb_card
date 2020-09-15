@@ -5,14 +5,15 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-
+      league: "NL",
+      team: ""
     }
   }
 
   render() {
     return(
       <div>
-        
+
       </div>
     );
   }
