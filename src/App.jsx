@@ -6,7 +6,12 @@ class App extends Component {
     super();
     this.state = {
       league: "NL",
-      team: ""
+      team: "",
+      player: {
+        playerName: "",
+        playerID: ""
+      },
+      
     }
   }
 
