@@ -7,11 +7,8 @@ class App extends Component {
     this.state = {
       league: "NL",
       team: "",
-      player: {
-        playerName: "",
-        playerID: ""
-      },
-      
+      players: [],
+
     }
   }
 
